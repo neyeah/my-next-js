@@ -14,7 +14,7 @@ export default function Result() {
         "you seem very slow, I mean off the charts slow",
         "You are a complete idiot",
         "How disappointing, you are a complete moron",
-        "Ewwww, you are a complete idiot",
+        "Ewwww, you're not very smart are you?",
       ];
       const randomIndex = Math.floor(Math.random() * outcomes.length);
       setResult(outcomes[randomIndex]);
